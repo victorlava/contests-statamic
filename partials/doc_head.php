@@ -4,11 +4,10 @@
 <head>
 <meta charset="utf-8">
 
-{{ theme:partial src="_meta" }}
+<?php include("meta.php"); ?>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{{# Place favicon.ico and apple-touch-icon.png in the root directory. #}}
-<link rel="stylesheet" href="{{ theme:css src="main.css" }}">
-<link rel="stylesheet" href="{{ theme:css src="animate.min.css" }}"> 
+<link rel="stylesheet" href="css/main.css">
 <script src="{{ theme_path }}bower_components/modernizr/modernizr.js"></script>
 <!-- feeds -->
 <link rel="alternate" type="application/rss+xml" href="{{ _site_url }}/feed" title="{{ _site_name }} RSS Feed"> 
@@ -16,7 +15,6 @@
 <script src="https://use.typekit.net/kxp0vip.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-<!-- analytics -->
-{{ theme:partial src="_analytics" }}
+<?php include("analytics.php"); ?>
 
 </head>

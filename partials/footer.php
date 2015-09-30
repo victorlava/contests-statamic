@@ -25,13 +25,3 @@
 		$('.section__intro h1').addClass('animated bounceOutLeft');
 	})
 </script>
-{{# 
-====================================
-  NOTES
-====================================
-
-This is the main footer partial.
-
-For more information on partials see http://statamic.com/learn/theming/partials.
-  
-#}}

@@ -1,0 +1,514 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"margi",
+				"margin-bottom: "
+			],
+			[
+				"prim",
+				"primary-color"
+			],
+			[
+				"back",
+				"background-color: "
+			],
+			[
+				"bac",
+				"background-color: "
+			],
+			[
+				"text",
+				"text-align: "
+			],
+			[
+				"tra",
+				"transform: "
+			],
+			[
+				"compan",
+				"company_link"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"mesage",
+				"message_message"
+			],
+			[
+				"name",
+				"name_message"
+			],
+			[
+				"ema",
+				"email_message"
+			],
+			[
+				"user",
+				"user_query"
+			],
+			[
+				"i",
+				"i	Tag"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-family: "
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"ana",
+				"analysis-color"
+			],
+			[
+				"artil",
+				"article-minimum-height"
+			],
+			[
+				"lig",
+				"light-grey"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"se",
+				"section	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"view",
+				"View: Toggle Menu"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Set Syntax: SQL (Rails)"
+			],
+			[
+				"Packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Vagrant/contests/partials/_header.html",
+		"/E/Vagrant/contest/css/_hero-section.scss",
+		"/E/Vagrant/contest/Vagrantfile",
+		"/E/Vagrant/airwood/_themes/s8/Gruntfile.js",
+		"/E/Vagrant/airwood/_themes/s8/partials/_doc_head.html",
+		"/E/Vagrant/airwood/_themes/s8/scss/01-components/_services.scss",
+		"/E/Vagrant/airwood/_themes/s8/scss/01-components/_section.scss",
+		"/E/Vagrant/airwood/_themes/s8/scss/01-components/_solution.scss",
+		"/E/Vagrant/airwood/_themes/s8/templates/default.html",
+		"/E/Vagrant/airwood/_themes/s8/scss/03-pages/_home.scss",
+		"/E/Vagrant/airwood/_themes/s8/scss/04-base/_animations.scss",
+		"/E/Vagrant/airwood/_themes/s8/scss/main.scss",
+		"/E/Vagrant/airwood/_themes/s8/partials/_footer.html",
+		"/E/Vagrant/airwood/_themes/s8/layouts/default.html",
+		"/E/Vagrant/airwood/_themes/s8/scss/04-base/_settings.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/templates/recuitment-error.html",
+		"/E/Vagrant/fortiscare/_themes/s8/templates/about.html",
+		"/E/Vagrant/mbk/_themes/s8/templates/blog.html",
+		"/E/Vagrant/fortiscare/_content/8-case-studies/page.md",
+		"/E/Vagrant/fortiscare/_config/fieldsets/recruitment.yaml",
+		"/E/Vagrant/fortiscare/_config/fieldsets/recruitment-inner.yaml",
+		"/E/Vagrant/fortiscare/_themes/s8/templates/blog.html",
+		"/E/Vagrant/fortiscare/_config/fieldsets/blog.yaml",
+		"/E/Vagrant/fortiscare/_config/fieldsets/service-adult.yaml",
+		"/E/Vagrant/fortiscare/_themes/s8/templates/service-adult.html",
+		"/E/Vagrant/fortiscare/_themes/s8/templates/service.html",
+		"/E/Vagrant/fortiscare/_config/fieldsets/service.yaml",
+		"/E/Vagrant/fortiscare/_config/fieldsets/home.yaml",
+		"/E/Vagrant/fortiscare/_config/fieldsets/about.yaml",
+		"/E/Vagrant/fortiscare/_themes/s8/templates/default.html",
+		"/E/Vagrant/fortiscare/_themes/s8/fonts/fortis-care.svg",
+		"/E/Vagrant/fortiscare/_themes/s8/fonts/fortis-care.ttf",
+		"/E/Vagrant/fortiscare/_themes/s8/templates/recruitment-inner.html",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_global.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_vacancies-list.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/main.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_section.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/03-pages/_jobs.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_blog-list.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/04-base/_settings.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/templates/recruitment.html",
+		"/E/Vagrant/fortiscare/.htaccess",
+		"/E/Vagrant/fortiscare/_content/7-test/page.md",
+		"/E/Vagrant/fortiscare/_themes/s8/layouts/default.html",
+		"/E/Vagrant/mbk/_themes/s8/layouts/default.html",
+		"/E/Vagrant/mbk/_themes/s8/partials/_header.html",
+		"/E/Vagrant/mbk/_themes/s8/partials/_doc_head.html",
+		"/E/Vagrant/mbk/_themes/s8/partials/_meta.html",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_support-list.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_text-list.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_quote.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_team-block.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_cta.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/templates/contact.html",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/03-pages/_contact.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_contact-form.scss",
+		"/C/Users/Works/Desktop/header.php",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_service-list.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_aim-list.scss",
+		"/C/Users/Works/Desktop/themes/Astra/page-portfolio-2-columns.php",
+		"/C/Users/Works/Desktop/themes/Astra/index.php",
+		"/C/Users/Works/Desktop/themes/Astra/page.php",
+		"/C/Users/Works/Desktop/themes/Astra-child/header.php",
+		"/C/Users/Works/Desktop/themes/Astra/vc_templates/vc_tab.php",
+		"/C/Users/Works/Desktop/themes/Astra-child/functions.php",
+		"/C/Users/Works/Downloads/card.dev copy/card.dev copy/nav.php",
+		"/C/Users/Works/Desktop/style.css",
+		"/C/Users/Works/Downloads/card.dev copy/card.dev copy/integration-section.php",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_blog-feed.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/02-partials/_footer.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/partials/_footer.html",
+		"/E/Vagrant/fortiscare/Vagrantfile",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_team.scss",
+		"/E/Vagrant/fortiscare/_config/formsets/recruit.yaml",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/04-base/_fonts.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_map.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/.service-list.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/04-base/_global.scss",
+		"/C/Users/Works/Downloads/nginx.conf.sample",
+		"/E/Vagrant/fortiscare/statamic-site.conf",
+		"/E/Vagrant/fortiscare/_config/users/admin.yaml",
+		"/E/Vagrant/fortiscare/_app/config/default.settings.yaml",
+		"/E/Vagrant/fortiscare/_config/vanity.yaml.sample",
+		"/E/Vagrant/fortiscare/_config/routes.yaml",
+		"/E/Vagrant/fortiscare/_config/settings.yaml",
+		"/E/Vagrant/fortiscare/_config/dashboard.yaml",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/02-partials/_header.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/partials/_header.html",
+		"/E/Vagrant/fortiscare/_themes/s8/js/default.js",
+		"/E/Vagrant/fortiscare/_themes/s8/Gruntfile.js",
+		"/E/Vagrant/fortiscare/_themes/s8/bower.json",
+		"/C/wamp/www/contact-law/index.html",
+		"/C/wamp/www/contact-law - Copy/templates/index.liquid",
+		"/C/wamp/www/contact-law - Copy/templates/includes/scripts.liquid",
+		"/C/wamp/www/contact-law - Copy/bower_components/foundation/scss/main.scss",
+		"/C/wamp/www/contact-law - Copy/assets/css/main.css",
+		"/C/wamp/www/contact-law - Copy/templates/layouts/layout.liquid",
+		"/E/Vagrant/fortiscare/_themes/s8/partials/_doc_head.html",
+		"/E/Vagrant/mbk/_themes/s8/templates/contact.html",
+		"/E/Vagrant/mbk/_themes/s8/js/contact.js",
+		"/C/Users/Works/Desktop/.htaccess",
+		"/E/Vagrant/mbk/_themes/s8/scss/04-base/_settings.scss",
+		"/E/Vagrant/mbk/_themes/s8/.bowerrc",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_featured-services.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/04-base/_compass.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/04-base/_mixins.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/bower_components/compass-mixins/.bower.json",
+		"/E/Vagrant/fortiscare/_themes/s8/bower_components/compass-mixins/lib/_compass.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_icons.scss",
+		"/C/wamp/www/zidisha-master/process.php",
+		"/E/Vagrant/travelcompare/package.json",
+		"/E/Vagrant/travelcompare/README.md",
+		"/E/Vagrant/travelcompare/partials/_footer.html",
+		"/E/Vagrant/travelcompare/partials/_meta.html",
+		"/E/Vagrant/travelcompare/partials/_header.html",
+		"/E/Vagrant/travelcompare/partials/_doc_head.html",
+		"/C/Users/Works/Downloads/Vagrant(a)/Vagrant(a)/mbk/Vagrantfile",
+		"/E/Vagrant/mbk/Vagrantfile",
+		"/E/Vagrant/Vagrantfile",
+		"/C/wamp/www/sageclinic.com/.git/config",
+		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/page-forms.php",
+		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/page-fees-packages.php",
+		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/page-fees.php",
+		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/assets/sass/site/pages/_fees.scss",
+		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/single-doctors.php",
+		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/page-clinics.php",
+		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/assets/sass/site/_footer.scss",
+		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/assets/sass/site/_global.scss"
+	],
+	"find":
+	{
+		"height": 82.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\application\\views"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Vapro",
+			"service",
+			"intro",
+			"text",
+			"tet",
+			"400",
+			".section__intro",
+			"component__solution-block",
+			".component__solution-block",
+			"light",
+			"  Home:\n    type: section\n    display: About Us",
+			"section",
+			"Team",
+			"social",
+			"box",
+			"independence",
+			"soc",
+			"#eee",
+			"sect",
+			"sec",
+			"6em",
+			"efefef",
+			"font",
+			"outline",
+			"button",
+			".button--outline",
+			"sim",
+			".section__simple",
+			".component__support",
+			"media",
+			"support",
+			"support__list",
+			"support_list",
+			".section__header",
+			"padding",
+			"input",
+			"global-radius",
+			"input",
+			"list-block_",
+			"list-block_header",
+			"service",
+			"alone",
+			"@include",
+			"footer__social",
+			"config.vm.network",
+			"contact",
+			"right",
+			"border",
+			"link-color",
+			"a-link",
+			"link",
+			"padd",
+			"header",
+			"family",
+			"radius",
+			"gray",
+			"header",
+			"ngin",
+			"nginx",
+			"logo-item",
+			"top-bar",
+			"top-bar4",
+			"sass",
+			"top-bar",
+			"$light",
+			"translateY",
+			"transformY",
+			"head",
+			"hed",
+			"Open",
+			"$light-blue",
+			"$light",
+			"$darker",
+			"BEM",
+			"gall",
+			"#about",
+			"Vaprobash",
+			"new",
+			"link-wr",
+			"link-wrapp",
+			".splash-wrapper",
+			"second-ul",
+			"600",
+			".footer-wrapper",
+			"hotel",
+			"1.77",
+			"footer-wra",
+			"footer-wrap",
+			"footer",
+			"link",
+			"color",
+			"a{",
+			"a",
+			"splash",
+			"center",
+			"footer",
+			"SITE_URL",
+			"vapr",
+			"ng",
+			"apac",
+			"Apache",
+			"ngi",
+			"ngix",
+			"apache2",
+			"apache2-mpm-event",
+			"#apache2-mpm-event",
+			"sudo apt-get install",
+			"udo apt-get install",
+			"php",
+			"vb.customize",
+			"pass",
+			"SSH",
+			"pass",
+			"apac",
+			"name",
+			".gform_wrapper",
+			"Sage",
+			"event",
+			".event .event-meta",
+			"@med",
+			".event a",
+			".section--secondary .button",
+			".section--visit .button",
+			"col-sm",
+			"col-sm-7",
+			".dr-specialism",
+			"include",
+			".dr-info"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 131.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 29.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/E/Vagrant/fortiscare/project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 328.0,
+	"status_bar_visible": true
+}
