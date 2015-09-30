@@ -1,0 +1,19 @@
+.header__title{
+	margin:0;
+	&--border{
+		position: relative;
+		&:after{
+			content: " ";
+		    width: 56px;
+		    height: 1px;
+		    background: #FFFFFF;
+		    bottom: -5px;
+		    display: block;
+		    position: absolute;
+		}
+	}
+}
+
+.header__sub-title{
+	margin:0;
+}

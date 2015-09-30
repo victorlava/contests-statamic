@@ -1,0 +1,25 @@
+
+	.section__intro{
+
+		.section__text{
+			    padding: 4em 2em;
+			    @media #{$large-up} {padding: 4em 0;}
+			    .header__title{
+
+					@media #{$small-only} {
+						font-size: 28px;
+					}
+					@media #{$medium-only} {
+						font-size: 28px;
+					}
+				}
+				.header__sub-title{
+					@media #{$small-only} {
+						font-size: 16px;
+					}
+					@media #{$medium-only} {
+						font-size: 16px;
+					}
+				}
+		}
+	}

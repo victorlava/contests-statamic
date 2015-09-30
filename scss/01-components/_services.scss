@@ -1,0 +1,80 @@
+.component__service-block{
+	padding-bottom: 5em;
+
+	.header__title{
+		font-size:rem-calc(21px);
+		letter-spacing: 2px;
+		padding-bottom:rem-calc(17px);
+		margin-bottom:rem-calc(31px);
+		position: relative;
+		color:#1d304a;
+		@media #{$large-up} {
+			margin-bottom:rem-calc(73px);
+			font-size:rem-calc(32px);	
+		}
+
+		&:after{
+			width:100%;
+			height:1px;
+			content:" ";
+			left:0;
+			bottom:2px;
+			position: absolute;
+			background: rgba(29,48,74,1);
+			background: -moz-linear-gradient(left, rgba(29,48,74,1) 0%, rgba(255,255,255,1) 100%);
+			background: -webkit-gradient(left top, right top, color-stop(0%, rgba(29,48,74,1)), color-stop(100%, rgba(255,255,255,1)));
+			background: -webkit-linear-gradient(left, rgba(29,48,74,1) 0%, rgba(255,255,255,1) 100%);
+			background: -o-linear-gradient(left, rgba(29,48,74,1) 0%, rgba(255,255,255,1) 100%);
+			background: -ms-linear-gradient(left, rgba(29,48,74,1) 0%, rgba(255,255,255,1) 100%);
+			background: linear-gradient(to right, rgba(29,48,74,1) 0%, rgba(255,255,255,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d304a', endColorstr='#ffffff', GradientType=1 );
+		}
+
+	}
+	.icon-block{
+		width:89px;
+		height:89px;
+		border-radius:10em;
+		margin-bottom:rem-calc(24px);
+		background-color: #fbfbfb;
+		text-align: center;
+	    line-height: 89px;
+	    i{color:#c2c2c2;}
+
+	}
+	.header__sub-title{
+		font-size:rem-calc(16px);
+		color:#1d304a;
+		font-weight: 500;
+		padding-bottom:rem-calc(10px);
+	}
+	.service-block{
+		padding-bottom:3em; 
+  
+	}
+	ul{
+		font-size:rem-calc(14px);
+		color:#4a4a4a;
+		line-height: 28px;
+		font-weight: 300;
+		list-style: none;
+		margin:0;
+		position: relative;
+
+		li{
+			padding-left:1.67em;
+			&:before{
+				content: " ";
+			    background-color: #c2c2c2;
+			    width: 9px;
+			    height: 9px;
+			    border: 2px solid rgba(241, 240, 240, 0.65);
+			    display: inline-block;
+			    border-radius: 10em;
+			    left: 0;
+			    position: absolute;
+			    margin-top: 9px;
+			}
+		}	
+	}
+}

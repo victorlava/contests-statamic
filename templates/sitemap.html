@@ -1,0 +1,40 @@
+<url>
+    <loc>{{ _site_url }}</loc>
+    <lastmod>{{ last_modified format="Y-m-d" }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+{{ nav from="/{segment_4}" max_depth="10"  }}
+  <url>
+    <loc>{{ _site_url }}{{ url }}</loc>
+    <lastmod>{{ last_modified format="Y-m-d" }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+  </url>
+{{ /nav }}
+
+{{ entries:listing from="/projects"  }}
+  <url>
+    <loc>{{ _site_url }}{{ url }}</loc>
+    {{ if segment_1 == "sitemap" }}
+    {{else}}
+    <lastmod>{{ datestamp format="Y-m-d" }}</lastmod>
+    {{endif}}
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+{{ /entries:listing }}
+
+{{ entries:listing from="/blog" }}
+  <url>
+    <loc>{{ _site_url }}{{ url }}</loc>
+    {{ if segment_1 == "sitemap" }}
+    {{else}}
+    <lastmod>{{ datestamp format="Y-m-d" }}</lastmod>
+    {{endif}}
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+{{ /entries:listing }}
+

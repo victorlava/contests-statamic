@@ -1,0 +1,50 @@
+.row-full {
+  width:100%;
+  padding-left:1em;
+  padding-right:1em;
+  @include grid-row($behavior: nest); // Other options include collapse and nest-collapse.
+  margin:0; 
+}
+  
+#footer{
+	background-color:#e8e8e8;
+	padding:rem-calc(18px) 0 rem-calc(64px);
+	text-align:center;
+
+	.icon-logo{
+		font-size:rem-calc(150px);
+		display: inline-block;
+		height:80px;
+	}
+	a{color:#6395da;}
+	a:hover,a:active{
+		color:rgba(255,255,255,0.8);
+		i{color:rgba(255,255,255,0.8);}
+	}
+	@media #{$large-up} {
+		//padding-top:1.8em;
+	}
+
+
+	ul{
+		margin:0;
+		list-style: none;
+		li{}
+	} 
+
+	p{font-size:rem-calc(14px);color:#4a4a4a;}
+	ul.footer__social{
+		left: 0;
+	    right: 0;
+	    display: table;
+	    margin: auto;
+		li{
+			padding:0 rem-calc(9px);
+			margin-left:0;
+			font-size:rem-calc(15px);
+		}
+	}
+
+}
+
+

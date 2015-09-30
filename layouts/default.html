@@ -1,0 +1,27 @@
+{{ theme:partial src="_doc_head" }}
+<body>
+
+{{ theme:partial src="_header" }}
+{{ layout_content }}
+{{ theme:partial src="_footer" }}
+
+<script src="/{{ theme_path }}bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/{{ theme_path }}bower_components/foundation/js/foundation.min.js"></script>
+
+<script src="{{ theme:js src="app.js" }}"></script>
+<script src="{{ theme:js src="jquery.min.js" }}"></script>
+</body>
+</html>
+
+{{#
+====================================
+  NOTES
+====================================
+
+This is the default layouts template used by all pages. If no other layout file is called then Statamic will use this file.
+
+For more information on how Statamic works and the three distinct pieces: content file, template and layout see http://statamic.com/learn/core-concepts/how-pages-are-built.
+
+The RSS link is used in the header. If you are creating an RSS feed make sure to change the title attribute. If you are not creating an RSS feed then you can delete this. For more information on the RSS Feed set up see the feed.html template.
+
+#}}

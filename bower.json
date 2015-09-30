@@ -1,0 +1,7 @@
+{
+  "name": "Statamic-Series8-Foundation5",
+  "dependencies": {
+    "animate.css": "~3.4.0",
+    "foundation": "zurb/bower-foundation"
+  }
+}

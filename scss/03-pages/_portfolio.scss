@@ -1,0 +1,9 @@
+#recruitment-view{
+	.section--third .section__text{
+		@media #{$large-up} {
+			padding-top:6em;
+			top:0;
+			transform: translateY(0%);
+		}
+	}
+} 

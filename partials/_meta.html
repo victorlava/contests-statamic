@@ -1,0 +1,66 @@
+{{# TOP LEVEL PAGES === #}}
+{{ if segment_1 != "404" && segment_1 == "" }}
+<title>{{ title }} | {{ _site_name }}</title>
+<meta name='keywords' content='{{ keywords }}' />
+<meta name="description" content="{{ content_seo }}">
+
+<meta property="og:title" content="{{ title }} | {{ _site_name }}">
+<meta property="og:type" content="article">
+<meta property="og:description" content="{{ content_seo }}">
+<meta property="og:url" content="{{ permalink }}">
+<meta property="og:image" content="{{ permalink }}screen.jpg">
+<meta property="og:site_name" content="{{ title }} | {{_site_name}}">
+{{ endif }}
+{{ if segment_1 == "investment-criteria"}}
+<title>{{ title }} | {{ _site_name }}</title>
+<meta name="description" content="{{ content_seo }}">
+<meta name='keywords' content="{{ keywords }}" />
+
+<meta property="og:title" content="{{ title }} | {{_site_name}}">
+<meta property="og:type" content="article">
+<meta property="og:description" content="{{ content_seo }}">
+<meta property="og:url" content="{{ permalink }}">
+<meta property="og:image" content="{{ background_image }}">
+<meta property="og:site_name" content="{{ title }} | {{_site_name}}">
+{{ endif }}
+{{ if segment_1 == "management"}}
+<title>{{ title }} | {{ _site_name }}</title>
+<meta name="description" content="{{ content_seo }}">
+<meta property="article:tag" content='{{ keywords }}' />
+
+<meta property="og:title" content="{{ title }} | {{ _site_name }}">
+<meta property="og:type" content="article">
+<meta property="og:description" content="{{ content_seo }}">
+<meta property="og:url" content="{{ permalink }}">
+<meta property="og:image" content="">
+<meta property="og:site_name" content="{{ title }} | {{ _site_name }}">
+{{ endif }}
+{{ if segment_1 == "portfolio"}}
+<title>{{ title }} | {{ _site_name }}</title>
+<meta name="description" content="{{ content_seo }}">
+<meta name='keywords' content='{{ keywords }}' />
+
+<meta property="og:title" content="{{ title }} | {{_site_name}}">
+<meta property="og:type" content="article">
+<meta property="og:description" content="{{content_seo}}">
+<meta property="og:url" content="{{ permalink }}">
+<meta property="og:image" content="{{ permalink }}screen.jpg">
+<meta property="og:site_name" content="{{ title }} | {{ _site_name }}">
+{{ endif }}
+{{ if segment_1 == "contact"}}
+<title>{{ title }} | {{ _site_name }}</title>
+<meta name="description" content="{{ content_seo }}">
+<meta name='keywords' content='{{ keywords }}' />
+
+<meta property="og:title" content="{{ title }} | {{_site_name}}">
+<meta property="og:type" content="article">
+<meta property="og:description" content="{{content_seo}}">
+<meta property="og:url" content="{{ permalink }}">
+<meta property="og:image" content="{{ permalink }}screen.jpg">
+<meta property="og:site_name" content="{{ title }} | {{ _site_name }}">
+{{ endif }}
+{{# 404 =============== #}}
+{{ if segment_1 == "404" }}
+<title>No swell here | {{ _site_name }}</title>
+<meta name="description" content="Sorry the page you are looking for is missing, it may have been moved or deleted, please use the navigation to search for similar content.">
+{{ endif }}
