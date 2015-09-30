@@ -7,15 +7,18 @@
 }
   
 #footer{
-	background-color:#e8e8e8;
-	padding:rem-calc(18px) 0 rem-calc(64px);
-	text-align:center;
+	background-color:#202020;
+	padding:rem-calc(24px) 0;
 
-	.icon-logo{
-		font-size:rem-calc(150px);
-		display: inline-block;
-		height:80px;
+	p{
+		font-size:rem-calc(12px) !important;
+		font-family: "Oxygen";
+		margin:0;
+		text-transform: uppercase;
+		letter-spacing: .5px;
+		font-weight:600;
 	}
+
 	a{color:#6395da;}
 	a:hover,a:active{
 		color:rgba(255,255,255,0.8);
@@ -39,9 +42,10 @@
 	    display: table;
 	    margin: auto;
 		li{
-			padding:0 rem-calc(9px);
+			padding-left: rem-calc(38px);
 			margin-left:0;
 			font-size:rem-calc(15px);
+			a{color:#4a4a4a;}
 		}
 	}
 

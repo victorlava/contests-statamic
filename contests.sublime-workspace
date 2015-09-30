@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-transform: "
+			],
+			[
 				"s",
 				"script	Tag"
 			],
@@ -22,10 +26,6 @@
 			[
 				"bac",
 				"background-color: "
-			],
-			[
-				"text",
-				"text-align: "
 			],
 			[
 				"tra",
@@ -99,6 +99,62 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 2195,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/01-components/_services.scss",
+			"settings":
+			{
+				"buffer_size": 2348,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "partials/doc_head.php",
+			"settings":
+			{
+				"buffer_size": 821,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/04-base/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 41114,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/04-base/_fonts.scss",
+			"settings":
+			{
+				"buffer_size": 1254,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/01-components/_section.scss",
+			"settings":
+			{
+				"buffer_size": 5066,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/01-components/_global.scss",
+			"settings":
+			{
+				"buffer_size": 333,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -144,6 +200,14 @@
 	},
 	"file_history":
 	[
+		"/E/Vagrant/contests/scss/02-partials/_footer.scss",
+		"/E/Vagrant/contests/partials/footer.php",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_section.scss",
+		"/E/Vagrant/fortiscare/_themes/s8/scss/04-base/_settings.scss",
+		"/E/Vagrant/contests/partials/meta.php",
+		"/E/Vagrant/contests/partials/analytics.php",
+		"/E/Vagrant/contests/partials/header.php",
+		"/E/Vagrant/contests/index.html",
 		"/E/Vagrant/contests/partials/_header.html",
 		"/E/Vagrant/contest/css/_hero-section.scss",
 		"/E/Vagrant/contest/Vagrantfile",
@@ -180,10 +244,8 @@
 		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_global.scss",
 		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_vacancies-list.scss",
 		"/E/Vagrant/fortiscare/_themes/s8/scss/main.scss",
-		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_section.scss",
 		"/E/Vagrant/fortiscare/_themes/s8/scss/03-pages/_jobs.scss",
 		"/E/Vagrant/fortiscare/_themes/s8/scss/01-components/_blog-list.scss",
-		"/E/Vagrant/fortiscare/_themes/s8/scss/04-base/_settings.scss",
 		"/E/Vagrant/fortiscare/_themes/s8/templates/recruitment.html",
 		"/E/Vagrant/fortiscare/.htaccess",
 		"/E/Vagrant/fortiscare/_content/7-test/page.md",
@@ -265,13 +327,7 @@
 		"/E/Vagrant/Vagrantfile",
 		"/C/wamp/www/sageclinic.com/.git/config",
 		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/page-forms.php",
-		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/page-fees-packages.php",
-		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/page-fees.php",
-		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/assets/sass/site/pages/_fees.scss",
-		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/single-doctors.php",
-		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/page-clinics.php",
-		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/assets/sass/site/_footer.scss",
-		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/assets/sass/site/_global.scss"
+		"/C/wamp/www/sageclinic.com/wp-content/themes/sage-clinic/page-fees-packages.php"
 	],
 	"find":
 	{
@@ -290,6 +346,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
+			"header",
+			"font-weig",
+			"paragraph",
+			"header",
+			"font-family",
+			"half",
+			"font--italic",
 			"Vapro",
 			"service",
 			"intro",
@@ -409,15 +473,7 @@
 			"Sage",
 			"event",
 			".event .event-meta",
-			"@med",
-			".event a",
-			".section--secondary .button",
-			".section--visit .button",
-			"col-sm",
-			"col-sm-7",
-			".dr-specialism",
-			"include",
-			".dr-info"
+			"@med"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -436,8 +492,230 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 2195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1170,
+								1170
+							],
+							[
+								1418,
+								1418
+							],
+							[
+								1666,
+								1666
+							],
+							[
+								1914,
+								1914
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 349.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/01-components/_services.scss",
+					"settings":
+					{
+						"buffer_size": 2348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								343,
+								343
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "partials/doc_head.php",
+					"settings":
+					{
+						"buffer_size": 821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								776,
+								776
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 100.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scss/04-base/_settings.scss",
+					"settings":
+					{
+						"buffer_size": 41114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2224,
+								2206
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1351.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scss/04-base/_fonts.scss",
+					"settings":
+					{
+						"buffer_size": 1254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1254,
+								1199
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scss/01-components/_section.scss",
+					"settings":
+					{
+						"buffer_size": 5066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4682,
+								4682
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4196.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "scss/01-components/_global.scss",
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

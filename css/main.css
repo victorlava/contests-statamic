@@ -80,7 +80,7 @@ body {
   background: #fff;
   color: #000000;
   cursor: auto;
-  font-family: "effra", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", Arial, sans;
   font-style: normal;
   font-weight: 300;
   line-height: 1.5;
@@ -556,7 +556,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "effra", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", Arial, sans;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2711,7 +2711,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   color: rgba(0, 0, 0, 0.57);
   display: block;
-  font-family: "effra", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", Arial, sans;
   font-size: 1rem;
   font-weight: normal;
   padding-left: 2rem;
@@ -3470,7 +3470,7 @@ a img {
 
 /* Default paragraph styles */
 p {
-  font-family: inherit;
+  font-family: "Merriweather", "Helvetica Neue", "Helvetica", Helvetica, sans-serif;
   font-size: 1.125rem;
   font-weight: normal;
   line-height: 1.8;
@@ -3492,9 +3492,9 @@ p aside {
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   color: #000000;
-  font-family: "effra", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", Arial, sans;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1.4;
   margin-bottom: 0.5rem;
   margin-top: 0.2rem;
@@ -3580,7 +3580,7 @@ code {
 ul,
 ol,
 dl {
-  font-family: inherit;
+  font-family: "Merriweather", "Helvetica Neue", "Helvetica", Helvetica, sans-serif;
   font-size: 1.125rem;
   line-height: 1.8;
   list-style-position: outside;
@@ -4332,6 +4332,10 @@ th.hide-for-touch {
   content: "d";
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: #000000;
+}
+
 a:hover, a:active {
   color: #1463af;
 }
@@ -4492,7 +4496,7 @@ button.transparent {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "effra", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", Arial, sans;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4554,15 +4558,17 @@ These partials may include files like:
 }
 
 #footer {
-  background-color: #e8e8e8;
-  padding: 1.125rem 0 4rem;
-  text-align: center;
+  background-color: #202020;
+  padding: 1.5rem 0;
 }
 
-#footer .icon-logo {
-  font-size: 9.375rem;
-  display: inline-block;
-  height: 80px;
+#footer p {
+  font-size: 0.75rem !important;
+  font-family: "Oxygen";
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-weight: 600;
 }
 
 #footer a {
@@ -4595,9 +4601,13 @@ These partials may include files like:
 }
 
 #footer ul.footer__social li {
-  padding: 0 0.5625rem;
+  padding-left: 2.375rem;
   margin-left: 0;
   font-size: 0.9375rem;
+}
+
+#footer ul.footer__social li a {
+  color: #4a4a4a;
 }
 
 #header {
@@ -4728,6 +4738,9 @@ since your site is should be mostly composed of tiny modules.
 	--Accordion												  						*/
 .header__title {
   margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  font-weight: 800;
 }
 
 .header__title--border {
@@ -4874,20 +4887,21 @@ since your site is should be mostly composed of tiny modules.
 
 .section__text .section__title {
   font-size: 1.625rem;
-  padding: .57em;
   display: table;
   width: 85%;
-  border: 1px solid #FFF;
   left: 9;
   left: 0;
   right: 0;
   margin: auto;
-  font-weight: 400;
+  font-weight: 700;
+  letter-spacing: -2px;
+  padding-bottom: 10px;
+  line-height: 1;
 }
 
 @media only screen and (min-width: 40.063em) {
   .section__text .section__title {
-    font-size: 2.625rem;
+    font-size: 3.875rem;
   }
 }
 
@@ -5068,7 +5082,8 @@ since your site is should be mostly composed of tiny modules.
 }
 
 .section__header .header__title {
-  padding-bottom: 2.25rem;
+  font-size: 2.625rem;
+  padding-bottom: 1rem;
 }
 
 .section__header p {
@@ -5078,7 +5093,7 @@ since your site is should be mostly composed of tiny modules.
 
 @media only screen and (min-width: 64.063em) {
   .section__header p {
-    font-size: 1.375rem;
+    font-size: 1rem;
   }
 }
 
@@ -5160,7 +5175,34 @@ since your site is should be mostly composed of tiny modules.
 }
 
 .component__service-block {
-  padding-bottom: 5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.component__service-block .image {
+  width: 127px;
+  height: 127px;
+  border: 2px solid #e4e4e4;
+  border-radius: 10em;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-bottom: 27px;
+}
+
+.component__service-block .image img {
+  width: 100%;
+  height: auto;
+}
+
+.component__service-block .title {
+  text-transform: uppercase;
+  font-size: 0.9375rem;
+  letter-spacing: 0.5px;
+}
+
+.component__service-block p {
+  font-size: 0.875rem;
 }
 
 .component__service-block .header__title {

@@ -1,6 +1,24 @@
 .component__service-block{
-	padding-bottom: 5em;
+	padding-bottom: 1em;
+	border-bottom:1px solid #e4e4e4;
 
+	.image{
+		width:127px;
+		height:127px;
+		border:2px solid #e4e4e4;
+		border-radius:10em;
+		left: 0;
+	    right: 0;
+	    margin: auto;
+	    margin-bottom:27px;
+		img{width:100%;height:auto;}
+	}
+	.title{
+		text-transform: uppercase;
+		font-size:rem-calc(15px);
+		letter-spacing: 0.5px;
+	}
+	p{font-size:rem-calc(14px);}
 	.header__title{
 		font-size:rem-calc(21px);
 		letter-spacing: 2px;

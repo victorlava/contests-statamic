@@ -38,6 +38,7 @@
 	padding-right:rem-calc(20px);
 	overflow:hidden; 
 	background-size: cover;
+
 	@media #{$large-up} {
 		padding-left:rem-calc(70px);
 		padding-right:rem-calc(70px);
@@ -94,18 +95,19 @@
 
     	.section__title{
     		font-size:rem-calc(26px);
-    	    padding: .57em;
 		    display: table;
 		    width: 85%;
-		    border: 1px solid #FFF;
 		    left: 9;
 		    left: 0;
 		    right: 0;
 		    margin: auto;
-		    font-weight:400; 
+		    font-weight:700; 
+		    letter-spacing: -2px;
+		    padding-bottom:10px;
+		    line-height:1;
 
 		    @media #{$medium-up} {
-		    	font-size:rem-calc(42px);	
+		    	font-size:rem-calc(62px);	
 		    }
     	}
     	.section__alone-text{
@@ -221,11 +223,11 @@
 
 .section__header{
 	padding:rem-calc(67px) 0;
-	.header__title{padding-bottom:rem-calc(36px);}
+	.header__title{font-size:rem-calc(42px);padding-bottom:rem-calc(16px);}
 	p{
 		font-size:rem-calc(16px);
 		@media #{$large-up} {
-			font-size:rem-calc(22px);	
+			font-size:rem-calc(16px);	
 		}
 		color:$font-gray;
 	}

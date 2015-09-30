@@ -11,10 +11,8 @@
 <script src="{{ theme_path }}bower_components/modernizr/modernizr.js"></script>
 <!-- feeds -->
 <link rel="alternate" type="application/rss+xml" href="{{ _site_url }}/feed" title="{{ _site_name }} RSS Feed"> 
-
-<script src="https://use.typekit.net/kxp0vip.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Raleway:400,500,600,700,800' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <?php include("analytics.php"); ?>
 
 </head>
