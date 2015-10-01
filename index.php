@@ -10,50 +10,51 @@
 			<p class="font--italic">Your chance to win a baby unicorn!</p> 
 		</div>
 		<div class="button button-enter">
-			<a href="#">Enter</a>
+			<a href="#enter">Enter</a>
 		</div>
 		<div class="background--overlay" style="background-color:rgba(0,0,0,.70);"></div> 
 	</section>
 
-	<section class="section__header">
+	<section id="enter" class="section__header">
 		<div class="row">
-			<div class="large-8 small-centered columns text--center">
+			<div class="large-9 small-centered columns text--center">
 				<p class="header__sub-title">Your chance to win a baby unicorn!</p> 
 				<h2 class="header__title">Chance to win!</h2>
-				<p>Unicorn startups, like Instagram (acquired for $1 Billion), WhatsApp (acquired for $19 Billion),  Snapchat (valued at over $5 Billion), AirBnB (valued at over $X Billion), Uber (valued at over $17 Billion), xyz, 123, each did something novel in a new or different way - spotlight is a whole new way to host contests!</p>
+				<p class="header__text">Unicorn startups, like Instagram (acquired for $1 Billion), WhatsApp (acquired for $19 Billion),  Snapchat (valued at over $5 Billion), AirBnB (valued at over $X Billion), Uber (valued at over $17 Billion), xyz, 123, each did something novel in a new or different way - spotlight is a whole new way to host contests!</p>
 			</div>
 		</div>
 
 		<div class="row text--center">
 			<div class="component__service-block large-3 columns">
 				<div class="image">
-					<img src="/" width="" height="">
+					<i class="fa fa-facebook"></i>
 				</div>
 				<h3 class="title">This this</h3>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, </p>
 			</div>
 			<div class="component__service-block large-3 columns">
 				<div class="image">
-					<img src="/" width="" height="">
+					<i class="fa fa-facebook"></i>
 				</div>
 				<h3 class="title">This this</h3>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, </p>
 			</div>
 			<div class="component__service-block large-3 columns">
 				<div class="image">
-					<img src="/" width="" height="">
+					<i class="fa fa-facebook"></i>
 				</div>
 				<h3 class="title">This this</h3>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, </p>
 			</div>
 			<div class="component__service-block large-3 columns">
 				<div class="image">
-					<img src="/" width="" height="">
+					<i class="fa fa-facebook"></i>
 				</div>
 				<h3 class="title">This this</h3>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, </p>
 			</div>
 		</div>
+		<p class="text--center font--bold font--italic">All of social voting, scoring, and winner selection is handled for you! </p>
 	</section>
  
 	<section class="section__clients section text--white text--center" style="background-image:url('img/background/clients.jpg');">
@@ -86,9 +87,9 @@
 			<div class="large-4 columns">
 				<img src="img/giveaway.jpg" width="370" height="auto">
 			</div>
-			<div class="large-7 columns right">
+			<div class="large-8 columns right">
 				<h3 class="header__title">We love contests SO much</h3>
-				<p>That we’re going to run the ultimate contest - a chance to win the entire spotlight company! Sed ut ullamcorper nulla. Proin ac eleifend dolor. Suspendisse auctor neque et quam bibendum molestie. Fusce facilisis ante elit, et sodales nulla dignissim iaculis. Morbi malesuada quam orci, lacinia laoreet libero congue eu. The winner will receive:</p>
+				<p class="header__text">That we’re going to run the ultimate contest - a chance to win the entire spotlight company! Sed ut ullamcorper nulla. Proin ac eleifend dolor. Suspendisse auctor neque et quam bibendum molestie. Fusce facilisis ante elit, et sodales nulla dignissim iaculis. Morbi malesuada quam orci, lacinia laoreet libero congue eu. </br> The winner will receive:</p>
 				<div class="row">
 					<div class="component__icon-list large-4 columns">
 						<div class="icon">
@@ -149,6 +150,9 @@
 							<p>$100,000 cash to help build and grow Spotlight</p>
 						</div>
 
+					</div>
+					<div class="large-12 columns">
+						<p class="last"><a href="#" class="button">Participate</a> In a contest unlike any contest ever before, this is your chance to win this baby unicorn. </p>
 					</div>
 				</div>
 			</div>
