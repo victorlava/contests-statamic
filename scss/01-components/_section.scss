@@ -151,6 +151,30 @@
 		font-size:rem-calc(34px);
 		padding-bottom:.3em; 
 	}
+	.last{
+		font-size:12px;
+		.button{
+			padding: 1em 1.5em;
+    		margin-right: 15px;
+    		display: block;
+    		@media #{$large-up} {
+    			display: inline-block;
+    		}
+		}
+	}
+	.right{
+		@media #{$large-up} {
+			padding-left:4em; 	
+		} 
+	}
+
+}
+
+#enter{
+	    padding-bottom: 2.1em;
+	.header__text{
+		margin-bottom: 3em;
+	}
 }
 
 #intro{
@@ -176,6 +200,16 @@
     width: 77px;
     height: 77px;
     border:2px solid #FFF;
+    a{
+    	display: block;
+    	width:100%;
+    	height:100%; 
+    	font-family: $paragraph-font-family;
+    	font-style:italic;
+    	text-transform: initial;
+	    letter-spacing: 0;
+	    font-weight: normal; 
+    }
 }
 
 .section__email{
@@ -200,18 +234,21 @@
 		input:not(.button){
 			color:$black;
 		}
-		.button{
-			text-transform: uppercase;
-		    font-size: 14px;
-		    font-weight: 600;
-		    letter-spacing: 1.5px;
-		}
+
 
 	}
 	p{
 		font-size:rem-calc(16px);
 	}
 }
+
+		.button{
+			text-transform: uppercase;
+		    font-size: 14px;
+		    font-weight: 600;
+		    letter-spacing: 1.5px;
+		    color:#FFF;
+		}
 
 .component__simple-text{
 	.title{
@@ -224,7 +261,7 @@
 	}
 }
 .component__icon-list{
-	padding-top: 1.4em;
+	padding-top: 2.1em;
 
 	> *{float:left;}
 	.icon{
@@ -243,6 +280,7 @@
 	p{
 		font-family:$body-font-family;
 		font-size:rem-calc(14px);
+		margin-bottom: 2.1em;
 	}
 
 }

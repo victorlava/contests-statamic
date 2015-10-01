@@ -4978,6 +4978,36 @@ p {
   padding-bottom: .3em;
 }
 
+.section__giveaway .last {
+  font-size: 12px;
+}
+
+.section__giveaway .last .button {
+  padding: 1em 1.5em;
+  margin-right: 15px;
+  display: block;
+}
+
+@media only screen and (min-width: 64.063em) {
+  .section__giveaway .last .button {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 64.063em) {
+  .section__giveaway .right {
+    padding-left: 4em;
+  }
+}
+
+#enter {
+  padding-bottom: 2.1em;
+}
+
+#enter .header__text {
+  margin-bottom: 3em;
+}
+
 #intro .button-enter {
   z-index: 2;
   width: 77px;
@@ -4999,6 +5029,17 @@ p {
   width: 77px;
   height: 77px;
   border: 2px solid #FFF;
+}
+
+.button-enter a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-family: "Merriweather", "Helvetica Neue", "Helvetica", Helvetica, sans-serif;
+  font-style: italic;
+  text-transform: initial;
+  letter-spacing: 0;
+  font-weight: normal;
 }
 
 .section__email {
@@ -5034,15 +5075,16 @@ p {
   color: #141414;
 }
 
-.section__email form .button {
+.section__email p {
+  font-size: 1rem;
+}
+
+.button {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1.5px;
-}
-
-.section__email p {
-  font-size: 1rem;
+  color: #FFF;
 }
 
 .component__simple-text .title {
@@ -5055,7 +5097,7 @@ p {
 }
 
 .component__icon-list {
-  padding-top: 1.4em;
+  padding-top: 2.1em;
 }
 
 .component__icon-list > * {
@@ -5087,6 +5129,7 @@ p {
 .component__icon-list p {
   font-family: "Raleway", Arial, sans;
   font-size: 0.875rem;
+  margin-bottom: 2.1em;
 }
 
 .component__support {
@@ -5383,8 +5426,8 @@ p {
 }
 
 .component__service-block .image {
-  width: 127px;
-  height: 127px;
+  width: 107px;
+  height: 107px;
   border: 2px solid #e4e4e4;
   border-radius: 10em;
   left: 0;
@@ -5398,6 +5441,10 @@ p {
   height: auto;
 }
 
+.component__service-block .image i {
+  line-height: 107px;
+}
+
 .component__service-block .title {
   text-transform: uppercase;
   font-size: 0.9375rem;
@@ -5408,6 +5455,7 @@ p {
   font-size: 0.875rem;
   border-bottom: 1px solid #e4e4e4;
   padding-bottom: 1.5em;
+  font-style: italic;
 }
 
 .component__service-block .header__title {

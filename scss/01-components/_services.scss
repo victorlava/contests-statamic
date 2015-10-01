@@ -2,8 +2,8 @@
 	padding-bottom: 1em;
 
 	.image{
-		width:127px;
-		height:127px;
+		width:107px;
+		height:107px;
 		border:2px solid #e4e4e4;
 		border-radius:10em;
 		left: 0;
@@ -11,6 +11,9 @@
 	    margin: auto;
 	    margin-bottom:27px;
 		img{width:100%;height:auto;}
+		i{
+			line-height: 107px;
+		}
 	}
 	.title{
 		text-transform: uppercase;
@@ -21,6 +24,7 @@
 		font-size:rem-calc(14px);
 		border-bottom:1px solid #e4e4e4;
 		padding-bottom: 1.5em;
+		font-style: italic;
 	}
 	.header__title{
 		font-size:rem-calc(21px);
