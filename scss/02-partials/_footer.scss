@@ -7,8 +7,12 @@
 }
   
 #footer{
+	text-align:center;
 	background-color:#202020;
 	padding:rem-calc(24px) 0;
+	@media #{$large-up} {
+		text-align:left;
+	}
 
 	p{
 		font-size:rem-calc(12px) !important;
@@ -42,10 +46,14 @@
 	    display: table;
 	    margin: auto;
 		li{
-			padding-left: rem-calc(38px);
+			padding:0 rem-calc(12px);
 			margin-left:0;
 			font-size:rem-calc(15px);
 			a{color:#4a4a4a;}
+			@media #{$large-up} {
+				padding-left: rem-calc(38px);	
+				padding-right:0;
+			}
 		}
 	}
 

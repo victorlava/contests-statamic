@@ -4558,8 +4558,15 @@ These partials may include files like:
 }
 
 #footer {
+  text-align: center;
   background-color: #202020;
   padding: 1.5rem 0;
+}
+
+@media only screen and (min-width: 64.063em) {
+  #footer {
+    text-align: left;
+  }
 }
 
 #footer p {
@@ -4601,13 +4608,20 @@ These partials may include files like:
 }
 
 #footer ul.footer__social li {
-  padding-left: 2.375rem;
+  padding: 0 0.75rem;
   margin-left: 0;
   font-size: 0.9375rem;
 }
 
 #footer ul.footer__social li a {
   color: #4a4a4a;
+}
+
+@media only screen and (min-width: 64.063em) {
+  #footer ul.footer__social li {
+    padding-left: 2.375rem;
+    padding-right: 0;
+  }
 }
 
 #header {
@@ -5112,6 +5126,12 @@ p {
   font-size: 24px;
 }
 
+@media only screen and (min-width: 64.063em) {
+  .component__icon-list .hide {
+    display: none;
+  }
+}
+
 .component__icon-list .text {
   width: 80%;
 }
@@ -5270,7 +5290,13 @@ p {
 
 .component__step .text {
   width: 75%;
-  padding-left: 1.5em;
+  padding-left: 10px;
+}
+
+@media only screen and (min-width: 64.063em) {
+  .component__step .text {
+    padding-left: 1.5em;
+  }
 }
 
 .component__step .header__title {
@@ -5426,8 +5452,8 @@ p {
 }
 
 .component__service-block .image {
-  width: 107px;
-  height: 107px;
+  width: 97px;
+  height: 97px;
   border: 2px solid #e4e4e4;
   border-radius: 10em;
   left: 0;
@@ -5442,7 +5468,7 @@ p {
 }
 
 .component__service-block .image i {
-  line-height: 107px;
+  line-height: 97px;
 }
 
 .component__service-block .title {

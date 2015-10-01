@@ -91,7 +91,7 @@
 				<h3 class="header__title">We love contests SO much</h3>
 				<p class="header__text">That we’re going to run the ultimate contest - a chance to win the entire spotlight company! Sed ut ullamcorper nulla. Proin ac eleifend dolor. Suspendisse auctor neque et quam bibendum molestie. Fusce facilisis ante elit, et sodales nulla dignissim iaculis. Morbi malesuada quam orci, lacinia laoreet libero congue eu. </br> The winner will receive:</p>
 				<div class="row">
-					<div class="component__icon-list large-4 columns">
+					<div class="component__icon-list medium-6 large-4 columns">
 						<div class="icon">
 							<i class="fa fa-facebook"></i>
 						</div>
@@ -101,7 +101,7 @@
 						</div>
 						<div class="line"></div>
 					</div>
-					<div class="component__icon-list large-4 columns">
+					<div class="component__icon-list medium-6 large-4 columns">
 						<div class="icon">
 							<i class="fa fa-facebook"></i>
 						</div>
@@ -111,7 +111,7 @@
 						</div>
 						<div class="line"></div>
 					</div>
-					<div class="component__icon-list large-4 columns">
+					<div class="component__icon-list medium-6 large-4 columns">
 						<div class="icon">
 							<i class="fa fa-facebook"></i>
 						</div>
@@ -121,7 +121,7 @@
 						</div>
 						<div class="line"></div>
 					</div>
-					<div class="component__icon-list large-4 columns">
+					<div class="component__icon-list medium-6 large-4 columns">
 						<div class="icon">
 							<i class="fa fa-facebook"></i>
 						</div>
@@ -129,9 +129,10 @@
 							<h5 class="title">CASH BAG</h5>
 							<p>$100,000 cash to help build and grow Spotlight</p>
 						</div>
+						<div class="line hide"></div>
 
 					</div>
-					<div class="component__icon-list large-4 columns">
+					<div class="component__icon-list medium-6 large-4 columns">
 						<div class="icon">
 							<i class="fa fa-facebook"></i>
 						</div>
@@ -139,9 +140,10 @@
 							<h5 class="title">CASH BAG</h5>
 							<p>$100,000 cash to help build and grow Spotlight</p>
 						</div>
+						<div class="line hide"></div>
 					
 					</div>
-					<div class="component__icon-list large-4 columns">
+					<div class="component__icon-list medium-6 large-4 columns">
 						<div class="icon">
 							<i class="fa fa-facebook"></i>
 						</div>
@@ -149,6 +151,7 @@
 							<h5 class="title">CASH BAG</h5>
 							<p>$100,000 cash to help build and grow Spotlight</p>
 						</div>
+						<div class="line hide"></div>
 
 					</div>
 					<div class="large-12 columns">
@@ -189,7 +192,7 @@
 
 	<section class="section section--no-padding-bottom">
 		<div class="large-4 columns">
-			<img src="/img/mobile-spotlight.png" width="400" height="auto">
+			<img src="/img/mobile_mockup_left.png" width="400" height="auto">
 		</div>
 		<div class="component__simple-text large-7 columns right">
 			<p class="header__sub-title">Your chance to win a baby unicorn!</p> 
@@ -202,7 +205,7 @@
 
 	<section class="section">
 		<div class="row">
-			<div class="component__step large-3 columns">
+			<div class="component__step medium-6 large-3 columns">
 				<div class="icon">
 					<i class="fa fa-facebook"></i>
 				</div>
@@ -212,7 +215,7 @@
 					<p>Create a Spotlight account under the home page</p>
 				</div>
 			</div>
-			<div class="component__step large-3 columns">
+			<div class="component__step medium-6 large-3 columns">
 				<div class="icon">
 					<i class="fa fa-facebook"></i>
 				</div>
@@ -222,7 +225,7 @@
 					<p>Create a Spotlight account under the home page</p>
 				</div>
 			</div>
-			<div class="component__step large-3 columns">
+			<div class="component__step medium-6 large-3 columns">
 				<div class="icon">
 					<i class="fa fa-facebook"></i>
 				</div>
@@ -232,7 +235,7 @@
 					<p>Create a Spotlight account under the home page</p>
 				</div>
 			</div>
-			<div class="component__step large-3 columns">
+			<div class="component__step medium-6 large-3 columns">
 				<div class="icon">
 					<i class="fa fa-facebook"></i>
 				</div>
