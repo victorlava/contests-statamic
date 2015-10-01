@@ -1,8 +1,23 @@
+p{
+	color:$steel;
+	font-size: 16px;
+    line-height: 2;
+}
 .header__title{
 	margin:0;
 	text-transform: uppercase;
 	letter-spacing:-2px;
 	font-weight:800;
+	font-size:rem-calc(34px);
+	padding-top:.2em;
+	padding-bottom:.77em;
+
+	.smaller{
+		font-size:16px;
+		vertical-align:top;
+		letter-spacing: 0;
+	}
+
 
 	&--border{
 		position: relative;
@@ -20,4 +35,6 @@
 
 .header__sub-title{
 	margin:0;
+	font-size:rem-calc(14px);
+	font-style: italic;
 }

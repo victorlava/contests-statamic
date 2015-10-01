@@ -78,7 +78,7 @@ body {
 
 body {
   background: #fff;
-  color: #000000;
+  color: #141414;
   cursor: auto;
   font-family: "Raleway", Arial, sans;
   font-style: normal;
@@ -566,16 +566,16 @@ button, .button {
   display: inline-block;
   padding: 0.6875rem 1.375rem 0.75rem 1.375rem;
   font-size: 1rem;
-  background-color: #1463af;
-  border-color: #104f8c;
-  color: #FFFFFF;
+  background-color: #88c2e2;
+  border-color: #4ea4d4;
+  color: #333333;
   transition: background-color 300ms ease-out;
 }
 
 button:hover,
 button:focus, .button:hover,
 .button:focus {
-  background-color: #104f8c;
+  background-color: #4ea4d4;
 }
 
 button:hover,
@@ -714,9 +714,9 @@ button.round, .button.round {
 }
 
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
-  background-color: #1463af;
-  border-color: #104f8c;
-  color: #FFFFFF;
+  background-color: #88c2e2;
+  border-color: #4ea4d4;
+  color: #333333;
   box-shadow: none;
   cursor: default;
   opacity: 0.7;
@@ -727,7 +727,7 @@ button.disabled:focus, button[disabled]:hover,
 button[disabled]:focus, .button.disabled:hover,
 .button.disabled:focus, .button[disabled]:hover,
 .button[disabled]:focus {
-  background-color: #104f8c;
+  background-color: #4ea4d4;
 }
 
 button.disabled:hover,
@@ -743,7 +743,7 @@ button.disabled:focus, button[disabled]:hover,
 button[disabled]:focus, .button.disabled:hover,
 .button.disabled:focus, .button[disabled]:hover,
 .button[disabled]:focus {
-  background-color: #1463af;
+  background-color: #88c2e2;
 }
 
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
@@ -962,7 +962,7 @@ form .row textarea.columns {
 
 /* Label Styles */
 label {
-  color: #4d4d4d;
+  color: #5a5a5a;
   cursor: pointer;
   display: block;
   font-size: 0.875rem;
@@ -984,7 +984,7 @@ label.inline {
 
 label small {
   text-transform: capitalize;
-  color: #676767;
+  color: #737373;
 }
 
 /* Attach elements to the beginning or end of an input */
@@ -1393,7 +1393,7 @@ span.error, small.error {
 
 .error > label > small {
   background: transparent;
-  color: #676767;
+  color: #737373;
   display: inline;
   font-size: 60%;
   font-style: normal;
@@ -2724,14 +2724,14 @@ meta.foundation-mq-topbar {
   font-size: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  background-color: #1463af;
-  border-color: #104f8c;
-  color: #FFFFFF;
+  background-color: #88c2e2;
+  border-color: #4ea4d4;
+  color: #333333;
 }
 
 .top-bar-section ul li > a.button:hover,
 .top-bar-section ul li > a.button:focus {
-  background-color: #104f8c;
+  background-color: #4ea4d4;
 }
 
 .top-bar-section ul li > a.button:hover,
@@ -2823,14 +2823,14 @@ meta.foundation-mq-topbar {
   font-size: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  background-color: #1463af;
-  border-color: #104f8c;
-  color: #FFFFFF;
+  background-color: #88c2e2;
+  border-color: #4ea4d4;
+  color: #333333;
 }
 
 .top-bar-section ul li > button:hover,
 .top-bar-section ul li > button:focus {
-  background-color: #104f8c;
+  background-color: #4ea4d4;
 }
 
 .top-bar-section ul li > button:hover,
@@ -2925,12 +2925,12 @@ meta.foundation-mq-topbar {
 }
 
 .top-bar-section ul li.active > a {
-  background: #1463af;
+  background: #88c2e2;
   color: #FFFFFF;
 }
 
 .top-bar-section ul li.active > a:hover {
-  background: #115597;
+  background: #5fadd8;
   color: #FFFFFF;
 }
 
@@ -3117,13 +3117,13 @@ meta.foundation-mq-topbar {
     background: transparent;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button) {
-    background: #1463af;
+    background: #88c2e2;
     color: #FFFFFF;
     line-height: 3.5625rem;
     padding: 0 2rem;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-    background: #115597;
+    background: #5fadd8;
     color: #FFFFFF;
   }
   .top-bar-section .has-dropdown > a {
@@ -3239,7 +3239,7 @@ meta.foundation-mq-topbar {
     color: rgba(0, 0, 0, 0.87);
   }
   .no-js .top-bar-section ul li:active > a {
-    background: #1463af;
+    background: #88c2e2;
     color: #FFFFFF;
   }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
@@ -3454,14 +3454,14 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #1463af;
+  color: #88c2e2;
   line-height: inherit;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #115597;
+  color: #5fadd8;
 }
 
 a img {
@@ -3491,7 +3491,7 @@ p aside {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  color: #000000;
+  color: #141414;
   font-family: "Raleway", Arial, sans;
   font-style: normal;
   font-weight: 700;
@@ -3502,7 +3502,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-  color: #595959;
+  color: #666666;
   font-size: 60%;
   line-height: 0;
 }
@@ -3533,7 +3533,7 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #595959;
+  color: #666666;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -3660,7 +3660,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #000000;
+  color: #141414;
   cursor: help;
 }
 
@@ -3682,7 +3682,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
-  color: #3b3b3b;
+  color: #4a4a4a;
 }
 
 blockquote cite:before {
@@ -3691,13 +3691,13 @@ blockquote cite:before {
 
 blockquote cite a,
 blockquote cite a:visited {
-  color: #3b3b3b;
+  color: #4a4a4a;
 }
 
 blockquote,
 blockquote p {
   line-height: 1.8;
-  color: #595959;
+  color: #666666;
 }
 
 /* Microformats */
@@ -4162,7 +4162,7 @@ th.hide-for-touch {
   * {
     background: transparent !important;
     box-shadow: none !important;
-    color: #000000 !important;
+    color: #141414 !important;
     /* Black prints faster: h5bp.com/s */
     text-shadow: none !important;
   }
@@ -4333,15 +4333,15 @@ th.hide-for-touch {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: #000000;
+  font-family: #141414;
 }
 
 a:hover, a:active {
-  color: #1463af;
+  color: #88c2e2;
 }
 
 a:hover *, a:active * {
-  color: #1463af;
+  color: #88c2e2;
 }
 
 .button {
@@ -4349,7 +4349,7 @@ a:hover *, a:active * {
 }
 
 .background--dark {
-  background-color: #1463af;
+  background-color: #88c2e2;
 }
 
 .background--dark .background-overlay {
@@ -4393,7 +4393,7 @@ a:hover *, a:active * {
 }
 
 .background--primary {
-  background-color: #1463af;
+  background-color: #88c2e2;
 }
 
 .object-align--vertical {
@@ -4426,7 +4426,7 @@ a:hover *, a:active * {
 }
 
 .text--color-grey {
-  color: #565656;
+  color: #6f6f6f;
 }
 
 .text--color-light {
@@ -4439,7 +4439,7 @@ p.smaller, .text--smaller p {
 }
 
 .color--grey {
-  color: #565656;
+  color: #6f6f6f;
 }
 
 .color--light {
@@ -4447,7 +4447,7 @@ p.smaller, .text--smaller p {
 }
 
 .color--primary {
-  color: #1463af;
+  color: #88c2e2;
 }
 
 .font--light {
@@ -4486,7 +4486,7 @@ p.smaller, .text--smaller p {
   bottom: -20px;
   height: 3px;
   width: 30%;
-  background-color: #1463af;
+  background-color: #88c2e2;
 }
 
 button.transparent {
@@ -4506,9 +4506,9 @@ button.transparent {
   display: inline-block;
   padding: 0.6875rem 1.375rem 0.75rem 1.375rem;
   font-size: 1rem;
-  background-color: #1463af;
-  border-color: #104f8c;
-  color: #FFFFFF;
+  background-color: #88c2e2;
+  border-color: #4ea4d4;
+  color: #333333;
   transition: background-color 300ms ease-out;
   background: none;
   padding: 1.25rem 2.625rem 1.1875rem 2.6875rem;
@@ -4518,7 +4518,7 @@ button.transparent {
 
 button.transparent:hover,
 button.transparent:focus {
-  background-color: #104f8c;
+  background-color: #4ea4d4;
 }
 
 button.transparent:hover,
@@ -4736,11 +4736,26 @@ since your site is should be mostly composed of tiny modules.
 	--Carousel
 	--Section
 	--Accordion												  						*/
+p {
+  color: #6f6f6f;
+  font-size: 16px;
+  line-height: 2;
+}
+
 .header__title {
   margin: 0;
   text-transform: uppercase;
   letter-spacing: -2px;
   font-weight: 800;
+  font-size: 2.125rem;
+  padding-top: .2em;
+  padding-bottom: .77em;
+}
+
+.header__title .smaller {
+  font-size: 16px;
+  vertical-align: top;
+  letter-spacing: 0;
 }
 
 .header__title--border {
@@ -4759,6 +4774,8 @@ since your site is should be mostly composed of tiny modules.
 
 .header__sub-title {
   margin: 0;
+  font-size: 0.875rem;
+  font-style: italic;
 }
 
 /* Smaller components */
@@ -4802,6 +4819,7 @@ since your site is should be mostly composed of tiny modules.
   padding-right: 1.25rem;
   overflow: hidden;
   background-size: cover;
+  background-position: center center;
 }
 
 @media only screen and (min-width: 64.063em) {
@@ -4955,6 +4973,122 @@ since your site is should be mostly composed of tiny modules.
   background-color: rgba(28, 127, 157, 0.82);
 }
 
+.section__giveaway .header__title {
+  font-size: 2.125rem;
+  padding-bottom: .3em;
+}
+
+#intro .button-enter {
+  z-index: 2;
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -38px;
+  line-height: 77px;
+  padding: 0;
+  border-radius: 10em;
+  font-size: 14px;
+}
+
+.button-enter {
+  z-index: 2;
+  width: 77px;
+  height: 77px;
+  border: 2px solid #FFF;
+}
+
+.section__email {
+  padding: 3.875rem 0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.section__email .header__title {
+  font-size: 1.75rem;
+  letter-spacing: 0;
+  font-weight: 300;
+  text-transform: inherit;
+  padding-bottom: .25em;
+}
+
+.section__email .row {
+  z-index: 2;
+  position: relative;
+}
+
+.section__email form div {
+  padding: 0;
+}
+
+.section__email form input {
+  width: 100%;
+  height: 50px;
+  padding-left: 15px;
+}
+
+.section__email form input:not(.button) {
+  color: #141414;
+}
+
+.section__email form .button {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.section__email p {
+  font-size: 1rem;
+}
+
+.component__simple-text .title {
+  text-transform: uppercase;
+  border-top: 1px solid #000;
+  letter-spacing: 1px;
+  display: table;
+  font-size: 12px;
+  padding-top: 1.2em;
+}
+
+.component__icon-list {
+  padding-top: 1.4em;
+}
+
+.component__icon-list > * {
+  float: left;
+}
+
+.component__icon-list .icon {
+  width: 30px;
+}
+
+.component__icon-list .icon i {
+  font-size: 24px;
+}
+
+.component__icon-list .text {
+  width: 80%;
+}
+
+.component__icon-list .title {
+  letter-spacing: 1px;
+}
+
+.component__icon-list .line {
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  float: right;
+}
+
+.component__icon-list p {
+  font-family: "Raleway", Arial, sans;
+  font-size: 0.875rem;
+}
+
 .component__support {
   border: 1px dashed #cecece;
   padding: 2.375rem 2.375rem 2.375rem 2.375rem;
@@ -4993,10 +5127,6 @@ since your site is should be mostly composed of tiny modules.
   margin: 0;
 }
 
-.header__title {
-  padding-bottom: 2.25rem;
-}
-
 .section__information {
   height: 42.3125rem;
 }
@@ -5009,7 +5139,7 @@ since your site is should be mostly composed of tiny modules.
   margin-left: -50px;
   font-size: 30px;
   padding-right: 14px;
-  color: #1463af;
+  color: #88c2e2;
 }
 
 .section__information .information__left {
@@ -5041,7 +5171,7 @@ since your site is should be mostly composed of tiny modules.
 }
 
 .section__information .information__right .information__link:hover, .section__information .information__right .information__link:active {
-  background-color: #1463af;
+  background-color: #88c2e2;
 }
 
 .section__information .information__right .information__link:hover *, .section__information .information__right .information__link:active * {
@@ -5049,7 +5179,7 @@ since your site is should be mostly composed of tiny modules.
 }
 
 .section__information .information__right .information__link a {
-  color: #000000;
+  color: #141414;
   font-size: 1.125rem;
 }
 
@@ -5077,6 +5207,80 @@ since your site is should be mostly composed of tiny modules.
   padding-top: 1.75rem;
 }
 
+.component__step > * {
+  float: left;
+  display: inline-block;
+}
+
+.component__step .icon {
+  width: 67px;
+  height: 67px;
+  text-align: center;
+  line-height: 67px;
+  border-radius: 10em;
+  border: 1px solid #ececec;
+}
+
+.component__step .icon i {
+  color: #88c2e2;
+}
+
+.component__step .text {
+  width: 75%;
+  padding-left: 1.5em;
+}
+
+.component__step .header__title {
+  padding-bottom: .1em;
+}
+
+.component__step .header__sub-title {
+  color: #6f6f6f;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: .5em;
+}
+
+.component__step p {
+  font-size: 0.875rem;
+  font-family: "Raleway", Arial, sans;
+  line-height: 1.6;
+}
+
+.section__clients {
+  background: #bbb;
+  background-size: cover !important;
+  padding: 4.5rem 0 2.625rem;
+}
+
+.section__clients .header__title {
+  font-size: 1.75rem;
+  letter-spacing: 0;
+  font-weight: 300;
+  text-transform: inherit;
+  padding-bottom: .25em;
+}
+
+.section__clients .row {
+  z-index: 2;
+  position: relative;
+}
+
+.section__clients p {
+  margin-bottom: 2.5em;
+}
+
+.section__clients .large-2 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 64.063em) {
+  .section__clients .large-2 {
+    width: 20%;
+  }
+}
+
 .section__header {
   padding: 4.1875rem 0;
 }
@@ -5088,7 +5292,7 @@ since your site is should be mostly composed of tiny modules.
 
 .section__header p {
   font-size: 1rem;
-  color: #565656;
+  color: #6f6f6f;
 }
 
 @media only screen and (min-width: 64.063em) {
@@ -5176,7 +5380,6 @@ since your site is should be mostly composed of tiny modules.
 
 .component__service-block {
   padding-bottom: 1em;
-  border-bottom: 1px solid #e4e4e4;
 }
 
 .component__service-block .image {
@@ -5203,6 +5406,8 @@ since your site is should be mostly composed of tiny modules.
 
 .component__service-block p {
   font-size: 0.875rem;
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 1.5em;
 }
 
 .component__service-block .header__title {
